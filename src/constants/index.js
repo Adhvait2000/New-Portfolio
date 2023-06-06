@@ -192,7 +192,7 @@ const projects = [
   {
     name: "Basketball Analysis",
     description:
-      "A machine learning analysis to predict the NBA All-Stars for the 2020-2021 season. Additionally, to analyse the effectiveness of Home Court Advantage.",
+      "A machine learning analysis to predict the NBA All-Stars for the 2020-2021 season and, analyse the effectiveness of Home Court Advantage.",
     tags: [
       {
         name: "python",
@@ -207,9 +207,9 @@ const projects = [
     source_code_link: "https://github.com/Adhvait2000/NBA-All-Strs",
   },
   {
-    name: "Infographic Generator",
+    name: "Fitness Exercise Finder",
     description:
-      "An AI tool that automatically converts research articles into infographic posters for easier understanding and access.",
+      "A web application designed to provide a convenient solution for finding exercises quickly and conveniently.",
     tags: [
       {
         name: "html",
@@ -225,7 +225,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/Adhvait2000/MSD-Infographic-Generator-iNTUition-v9.0",
+    source_code_link: "https://github.com/Adhvait2000/fitness_app",
   },
 ];
 
