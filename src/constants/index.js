@@ -13,8 +13,8 @@ import {
   nodejs,
   mongodb,
   git,
+  docker, 
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -25,6 +25,12 @@ import {
   threejs,
 } from "../assets";
 
+import fitnessApp from '../assets/fitnessApp.png'
+import realEstate from '../assets/realEstate.png'
+import c_prog from '../assets/tech/c_prog.png'
+import javaLogo from '../assets/tech/javaLogo.png'
+import pythonLogo from '../assets/tech/pythonLogo.png'
+import gStack from '../assets/company/gStack.png'
 export const navLinks = [
   {
     id: "about",
@@ -72,17 +78,21 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {s
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Python",
+    icon: pythonLogo,
+  },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "java",
+    icon: javaLogo,
+  },
+  {
+    name: "c programming",
+    icon: c_prog,
   },
 ];
 
@@ -90,13 +100,13 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "GStack PTE LTD",
-    icon: starbucks,
+    icon: gStack,
     iconBg: "#383E56",
     date: "May 2022 - August 2022",
     points: [
       "Acquired knowledge of the ServiceNow platform by shadowing a senior developer",
       "Developed a project for NCS (National Computer Systems) by applying ServiceNow software and JavaScript.",
-      "Analyzd meetings with clients to understand requirements and provided solutions to needs; Enhanced interpersonal skills.",
+      "Analyzed meetings with clients to understand requirements and provided solutions to needs; Enhanced interpersonal skills.",
     ],
   },
   {
@@ -186,7 +196,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: realEstate,
     source_code_link: "https://github.com/Adhvait2000/HomeSearch-Website",
   },
   {
@@ -224,7 +234,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: fitnessApp,
     source_code_link: "https://github.com/Adhvait2000/fitness_app",
   },
 ];
