@@ -31,6 +31,8 @@ import c_prog from '../assets/tech/c_prog.png'
 import javaLogo from '../assets/tech/javaLogo.png'
 import pythonLogo from '../assets/tech/pythonLogo.png'
 import gStack from '../assets/company/gStack.png'
+import yayoi from '../assets/company/yayoi.png'
+
 export const navLinks = [
   {
     id: "about",
@@ -110,16 +112,16 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Service Crew",
+    company_name: "YAYOI Singapore",
+    icon: yayoi,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a team to efficiently serve food to customers, ensuring timely delivery and excellent service",
+      "Demonstrated versatility by actively supporting kitchen operations, including cleaning and prepping dishes to ensure a smooth workflow.",
+      "Adapted quickly to fast-paced environment, prioritizing tasks and multitasking effectively to meet customer demands and expectations.",
+      "Operated the cashier effectively, accurately processing payments and maintaining a high level of attention to detail.",
     ],
   },
   {
