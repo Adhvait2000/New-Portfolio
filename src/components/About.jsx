@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a year 3 undergraduate at NTU majoring in Computer Science. I have experience of working with other people and, I am someone who is always seeking to learn and develop. Outside of studies I keep myself fit and active; I am a positive person who always embraces change, and I will always take responsibility for my own professional development.
+        I am a computing undergraduate at Nanyang Technological Univeristy (NTU). I am interested in software engineering, artificial intelligence, and frontend development. I have experience of working with people and, I am someone who is always seeking to learn and develop. Outside of studies I keep myself fit and active and I am a positive person who always embraces change.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

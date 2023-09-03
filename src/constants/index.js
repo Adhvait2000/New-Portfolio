@@ -32,6 +32,7 @@ import javaLogo from '../assets/tech/javaLogo.png'
 import pythonLogo from '../assets/tech/pythonLogo.png'
 import gStack from '../assets/company/gStack.png'
 import yayoi from '../assets/company/yayoi.png'
+import synapxe from '../assets/company/synapxe.png'
 
 export const navLinks = [
   {
@@ -96,6 +97,14 @@ const technologies = [
     name: "c programming",
     icon: c_prog,
   },
+  {
+    name: "react",
+    icon: reactjs,
+  },
+  {
+    name: "mongodb",
+    icon: mongodb,
+  },
 ];
 
 const experiences = [
@@ -125,31 +134,18 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "System Analyst",
+    company_name: "Synapxe",
+    icon: synapxe,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jul 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Performed user requirement analysis for the new product.",
+      "Managed JIRA accounts and utilized JIRA software to follow up service requests and manage bug reports.",
+      "Utilized Azure DevOps for project management purposes.",
+      "Planned and coordinated end-user training for system implementations and enhancements.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
