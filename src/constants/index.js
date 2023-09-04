@@ -33,6 +33,7 @@ import pythonLogo from '../assets/tech/pythonLogo.png'
 import gStack from '../assets/company/gStack.png'
 import yayoi from '../assets/company/yayoi.png'
 import synapxe from '../assets/company/synapxe.png'
+import jobApp from '../assets/jobApp.png'
 
 export const navLinks = [
   {
@@ -51,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineering",
     icon: web,
   },
   // {
@@ -59,13 +60,13 @@ const services = [
   //   icon: mobile,
   // },
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Artificial Intelligence",
+    icon: creator,
+  }
 ];
 
 const technologies = [
@@ -234,6 +235,27 @@ const projects = [
     ],
     image: fitnessApp,
     source_code_link: "https://github.com/Adhvait2000/fitness_app",
+  },
+  {
+    name: "Job Finder App",
+    description:
+      "A job finding application that is designed to allow job seeker, especially those in the tech fields, to discover a wide range of job opportunities.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobApp,
+    source_code_link: "https://github.com/Adhvait2000/techy",
   },
 ];
 
