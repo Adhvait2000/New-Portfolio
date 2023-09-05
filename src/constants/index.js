@@ -34,6 +34,7 @@ import gStack from '../assets/company/gStack.png'
 import yayoi from '../assets/company/yayoi.png'
 import synapxe from '../assets/company/synapxe.png'
 import jobApp from '../assets/jobApp.png'
+import sumz from '../assets/sumz.png'
 
 export const navLinks = [
   {
@@ -118,7 +119,7 @@ const experiences = [
     points: [
       "Acquired knowledge of the ServiceNow platform by shadowing a senior developer",
       "Developed a project for NCS (National Computer Systems) by applying ServiceNow software and JavaScript.",
-      "Analyzed meetings with clients to understand requirements and provided solutions to needs; Enhanced interpersonal skills.",
+      "Analyzed meetings with clients to understand user requirements and provided solutions to needs; Enhanced interpersonal skills.",
     ],
   },
   {
@@ -135,11 +136,11 @@ const experiences = [
     ],
   },
   {
-    title: "System Analyst",
+    title: "System Analyst Intern",
     company_name: "Synapxe",
     icon: synapxe,
     iconBg: "#383E56",
-    date: "Jul 2023 - Dec 2023",
+    date: "July 2023 - December 2023",
     points: [
       "Performed user requirement analysis for the new product.",
       "Managed JIRA accounts and utilized JIRA software to follow up service requests and manage bug reports.",
@@ -257,6 +258,27 @@ const projects = [
     image: jobApp,
     source_code_link: "https://github.com/Adhvait2000/techy",
   },
+  {
+    name: "SummarEasee",
+    description:
+    "An application that delivers automated, accurate, and concise summaries of lengthy online articles to streamline information retrieval and enhance user reading experiences.",
+    tags:[
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sumz,
+    source_code_link: "https://github.com/Adhvait2000/ai_summary"
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
