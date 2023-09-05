@@ -35,6 +35,7 @@ import yayoi from '../assets/company/yayoi.png'
 import synapxe from '../assets/company/synapxe.png'
 import jobApp from '../assets/jobApp.png'
 import sumz from '../assets/sumz.png'
+import basketball from '../assets/basketball.png';
 
 export const navLinks = [
   {
@@ -213,7 +214,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: basketball,
     source_code_link: "https://github.com/Adhvait2000/NBA-All-Strs",
   },
   {
