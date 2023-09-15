@@ -46,7 +46,7 @@ const About = () => {
         I am a computing undergraduate at Nanyang Technological Univeristy (NTU). I am interested in software engineering, artificial intelligence, and frontend development. 
         I have experience of working with people and, I am someone who is always seeking to learn and develop. 
         Outside of studies I keep myself fit and active and I am a positive person who always embraces change. 
-        You can find my <a href='https://docs.google.com/document/d/1T3pA4qhpY7nWtOnQR81uIAFm-75kqEG_/edit' className='link-style' target="_blank" rel="noopener noreferrer">Resume</a> and <a href='https://github.com/Adhvait2000' className='link-style' target="_blank" rel="noopener noreferrer">Github profile</a> here.
+        You can find my <a href='https://docs.google.com/document/d/1T3pA4qhpY7nWtOnQR81uIAFm-75kqEG_/edit' className='link-style' target="_blank" rel="noopener noreferrer">Resume</a> and <a href='https://www.linkedin.com/in/adhvait-srinath-3653b9252/' className='link-style' target="_blank" rel="noopener noreferrer">LinkedIn profile</a> here.
       </motion.p>
 
       <style>

@@ -180,7 +180,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "HomeSearch",
+    name: "HomeSearch: Your Smart Housing Solution",
     description:
       "Website that makes it easier for users to buy and rent houses in Singapore. It simplifies the house-hunting process and provides a seamless user experience.",
     tags: [
@@ -201,7 +201,7 @@ const projects = [
     source_code_link: "https://github.com/Adhvait2000/HomeSearch-Website",
   },
   {
-    name: "Basketball Analysis",
+    name: "Basketball Analytics Insights",
     description:
       "A machine learning analysis to predict the NBA All-Stars for the 2020-2021 season and, analyse the effectiveness of Home Court Advantage.",
     tags: [
@@ -218,7 +218,7 @@ const projects = [
     source_code_link: "https://github.com/Adhvait2000/NBA-All-Strs",
   },
   {
-    name: "Fitness Exercise Finder",
+    name: "Fitness Exercise Finder: Your Ultimate Workout Companion",
     description:
       "A web application designed to provide a convenient solution for finding exercises quickly and conveniently.",
     tags: [
@@ -238,29 +238,29 @@ const projects = [
     image: fitnessApp,
     source_code_link: "https://github.com/Adhvait2000/fitness_app",
   },
+  // {
+  //   name: "Job Finder App",
+  //   description:
+  //     "A job finding application that is designed to allow job seeker, especially those in the tech fields, to discover a wide range of job opportunities.",
+  //   tags: [
+  //     {
+  //       name: "react-native",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobApp,
+  //   source_code_link: "https://github.com/Adhvait2000/techy",
+  // },
   {
-    name: "Job Finder App",
-    description:
-      "A job finding application that is designed to allow job seeker, especially those in the tech fields, to discover a wide range of job opportunities.",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobApp,
-    source_code_link: "https://github.com/Adhvait2000/techy",
-  },
-  {
-    name: "SummarEasee",
+    name: "SummarEasee: Summarize with Ease",
     description:
     "An application that delivers automated, accurate, and concise summaries of lengthy online articles to streamline information retrieval and enhance user reading experiences.",
     tags:[
